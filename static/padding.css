@@ -1,5 +1,5 @@
 body {
-  padding-top: 70px;
+  padding-top: 98px;
   padding-bottom: 30px;
 }
 
@@ -15,4 +15,8 @@ body {
 
 .container-showcase .navbar .container {
   width: auto;
+}
+
+.row {
+  padding-top: 20px;
 }
