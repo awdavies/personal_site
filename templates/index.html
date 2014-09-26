@@ -50,7 +50,7 @@
 
 <!-- Main stuff -->
 <div class="container" style="width: 80%">
-  <div id="about" class="row jumbotron">
+  <div id="about" class="container jumbotron">
     <div class="col-md-3">
       <img src="static/mahface.jpeg" title="Help!  I'm trapped in here!" class="img-thumbnail img-responsive"></img>
     </div>
@@ -63,18 +63,29 @@
     </div>
   </div>
   <div id="projects" class="row">
-    <h1 style="text-align: center">Projects</h1>
+    <h1 class="text-center">Projects</h1>
     <hr>
+    <div class="row">
     <div class="col-md-4">
       <img class="img-thumbnail img-responsive" src="static/grayson_rocket.jpg" title="Rocket launch in Black Rock, March 2014 (though I was there, I did not take this photo)."></img>
     </div>
     <div class="col-md-8">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h2>Rocketry</h2>
+      <p>While I haven't been exposed to too much other than carbon fibering a few fins, sliding an igniter into an engine, and programming for various small-scale flight controllers, I have been involved in several rocketry projects.</p>
+      <p>During my senior year at the University of Washington, I helped put together a three stage rocket (which gloriously exploded on the launchpad), and program a C library for a PIC24 meant to replace an old ASM flight control lib.  I also soldered together several boards meant to house our PIC24's, and put together a whole GPS-enabled flight control system with some fiberglass, wood, and a ton of epoxy (this rocket also exploded, so I never got to find out if my work was functional).</p>
+      <p>Recently I went with a group of rocketry enthusiasts at my workplace and helped on the embedded systems side of things.
+
+      All development was done in the desert without internet, which proved quite challenging.  For the short time I was there, I helped hook up <a href="http://beagleboard.org/bone">BeagleBone</a> to a <a href="http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00057547.pdf">LSM303D</a> acclerometer via I2C.
+
+      I also implemented a simple JavaScript interface (BeagleBone uses some embedded friendly extensions to NodeJS) to control a pair of stepper motors behind a switch.  The plan was to enable remote calibration of a large launch rail, enabling the team to set its angle based on wind speed data received via weather balloon.
+
+      As of now this side project is still ongoing&mdash;there simply wasn't enough time to test the setup while we were out in the desert.</p>
+    </div>
     </div>
   </div>
   <div id="contact" class="row">
     <div class="col-md-12">
-      <h1 style="text-align: center">Contact</h1>
+      <h1 class="text-center">Contact</h1>
       <hr>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
