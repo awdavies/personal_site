@@ -4,8 +4,6 @@ render_template,
 url_for,
 )
 site = Flask(__name__)
-url_for('static', filename='narrow.css')
-url_for('static', filename='padding.css')
 
 @site.route("/")
 def main():
