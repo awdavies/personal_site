@@ -8,6 +8,7 @@
 <link rel="stylesheet" href="static/main.css">
 <link rel="stylesheet" href="static/padding.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 
@@ -26,7 +27,7 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">About</a></li>
+        <li><a href="#">About</a></li>
         <li><a href="#about">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
@@ -49,15 +50,12 @@
 
 <!-- Main stuff -->
 <div class="container" style="width: 80%">
-  <div id="about" class="row row-full">
+  <div id="about" class="row jumbotron">
     <div class="col-md-3">
-      <img src="static/mahface.jpeg" title="Help!  I'm trapped in here!" class="img-thumbnail"></img>
+      <img src="static/mahface.jpeg" title="Help!  I'm trapped in here!" class="img-thumbnail img-responsive"></img>
     </div>
     <div class="col-md-9">
-      <h1>About</h1>
-      <p>
-        Oh hi there!
-      </p>
+      <h2>Oh hi there!</h2>
       <p>
       You appear to have stumbled upon my personal page, which is not yet done.
       In due time my friend.... In due time.  Meanwhile, enjoy some placeholder text (your ol' pal Lorem Ipsum)!
@@ -65,14 +63,19 @@
     </div>
   </div>
   <div id="projects" class="row">
-    <div class="col-md-12">
-      <h1>Projects</h1>
+    <h1 style="text-align: center">Projects</h1>
+    <hr>
+    <div class="col-md-4">
+      <img class="img-thumbnail img-responsive" src="static/grayson_rocket.jpg" title="Rocket launch in Black Rock, March 2014 (though I was there, I did not take this photo)."></img>
+    </div>
+    <div class="col-md-8">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
   <div id="contact" class="row">
     <div class="col-md-12">
-      <h1>Contact</h1>
+      <h1 style="text-align: center">Contact</h1>
+      <hr>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
   </div>
@@ -82,15 +85,28 @@
       <p class="text-center">
         <small>
           This crap runs on
-          <a href="http://getbootstrap.com/">Bootstrap</a>
-          ,
-          <a href="http://flask.pocoo.org/">Flask</a>
-          , and
+          <a href="http://getbootstrap.com/">Bootstrap</a>,
+          <a href="http://flask.pocoo.org/">Flask</a>,
+          <a href="http://jquery.com/">jQuery</a>, and
           <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>
         </small>
       </p>
     </div>
   </div>
 </div>
+<script>
+$(document).ready(function() {
+  // Smooth scroll to any hash marker.
+  $('a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+    var target = this.hash;
+    $('html, body').stop().animate({
+      'scrollTop': $(target).offset() ? $(target).offset().top : 0
+    }, 900, 'swing', function() {
+      window.location.hash = target;
+    });
+  });
+});
+</script>
 </body>
 </html>
