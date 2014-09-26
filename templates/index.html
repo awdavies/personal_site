@@ -5,10 +5,10 @@
 <!-- Ze Bootystraps -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-<link rel="stylesheet" href="static/narrow.css">
+<link rel="stylesheet" href="static/main.css">
 <link rel="stylesheet" href="static/padding.css">
-<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -26,17 +26,61 @@
 		</div>
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
-				<li class="active"><a href="#">Home</a></li>
-				<li><a href="#about">About</a></li>
+				<li class="active"><a href="#">About</a></li>
 				<li><a href="#about">Projects</a></li>
 				<li><a href="#contact">Contact</a></li>
 			</ul>
+      <!-- Contact links with fancy icons! -->
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="https://twitter.com/A_W_Davies">
+            <i class="fa fa-twitter fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/awdavies">
+            <i class="fa fa-github-square fa-2x"></i>
+          </a>
+        </li>
+      </ul>
 		</div>
 	</div>
 </div><!--./navbar-->
-<div class="container">
-<h1>Oh hi there!</h1>
-<h3>Looks like this website is still being made (as ugly as possible).</h3>
+
+<!-- Main stuff -->
+<div id="about" class="container">
+  <div class="col-md-5">
+    <img src="static/mahface.jpeg" title="Help!  I'm trapped in here!" class="img-thumbnail"></img>
+  </div>
+  <div class="col-md-5">
+    <h1>About</h1>
+    <p>
+      Oh hi there!
+    </p>
+    <p>
+    You appear to have stumbled upon my personal page, which is not yet done.
+    In due time my friend.... In due time.
+    </p>
+  </div>
+</div>
+<div id="projects" class="container">
+</div>
+<div id="contact" class="container">
+</div>
+<div id="legalese" class="container">
+  <div class="col-mod-10">
+    <p class="text-center name">© Andrew Davies 2014</p>
+    <p class="text-center">
+      <small>
+        This crap runs on
+        <a href="http://getbootstrap.com/">Bootstrap</a>
+        , 
+        <a href="http://flask.pocoo.org/">Flask</a>
+        , and
+        <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>
+      </small>
+    </p>
+  </div>
 </div>
 </body>
 </html>
