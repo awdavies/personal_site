@@ -15,7 +15,10 @@ small {
   font-size: 10pt;
 }
 .fa {
-  color: #fff;
+  color: #666;
+}
+li > a > .fa:hover {
+  color: #aaa;
 }
 #about {
   background-color: #444;
