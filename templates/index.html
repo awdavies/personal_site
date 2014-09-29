@@ -69,7 +69,7 @@
           {% if proj.pic_link is defined %}
             <a href={{proj.pic_link}}>
           {% endif %}
-          <img class="img-thumbnail img-responsive center-block" src="static/{{ proj.pic }}" title="{{ proj.pic_title }}" />
+          <img class="img-thumbnail img-responsive center-block" src="static/{{ proj.pic }}" title="{{ proj.pic_title }}" alt="{{ proj.pic_alt }}" />
           {% if proj.pic_link is defined %}
             </a>
           {% endif %}

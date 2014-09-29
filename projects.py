@@ -3,6 +3,7 @@ project_list = [
 'title': "Rocketry",
 'pic': 'grayson_rocket.jpg',
 'pic_title': "Rocket launch in Black Rock, March 2014 (though I was there, I did not take this photo).",
+'pic_alt': "Rocket Launch",
 'paragraphs': [
     """
     While I haven't been exposed to too much other than carbon fibering
@@ -51,6 +52,7 @@ project_list = [
 'title': "Vidya Gaems",
 'pic': "stalker_louie82y_with_logo.png",
 'pic_title': "Original photo credit goes to Louie82Y.  Click the image to see their deviantART page.",
+'pic_alt': "STALKER Shadow of Chernobyl",
 'pic_link': "http://louie82y.deviantart.com/",
 'paragraphs': [
     """
@@ -74,6 +76,7 @@ project_list = [
 {  ## google
 'title': "Google",
 'pic': "google-fiber-bunny.png",
+'pic_alt': "Google Fiber Bunny",
 'paragraphs': [
     """
     In the Summer of 2013, I worked as an engineering intern for Google on the
