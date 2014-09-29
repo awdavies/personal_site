@@ -6,6 +6,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 <link rel="stylesheet" href="static/main.css">
+<link rel="stylesheet" href="static/narrow.css">
 <link rel="stylesheet" href="static/padding.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -35,7 +36,7 @@
       <ul class="nav navbar-nav navbar-right">
         {% for c in contact %}
         <li>
-          <a href="{{ c.link }}">
+          <a href="{{ c.link }}" role="button">
             <i class="fa {{ c.icon }} fa-2x"></i>
           </a>
         </li>
@@ -46,7 +47,7 @@
 </div><!--./navbar-->
 
 <!-- Main stuff -->
-<div class="container" style="width: 80%">
+<div class="container">
   <div id="about" class="container jumbotron">
     <div class="col-md-3">
       <img src="static/mahface.jpeg" title="Help!  I'm trapped in here!" class="img-thumbnail img-responsive"></img>
@@ -59,7 +60,7 @@
       </p>
     </div>
   </div>
-  <div id="projects" class="row narrow center-block">
+  <div id="projects" class="row center-block">
     <h1 class="text-center">Projects</h1>
     <hr>
     {% for proj in projects %}
