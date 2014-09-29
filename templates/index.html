@@ -36,7 +36,7 @@
       <ul class="nav navbar-nav navbar-right">
         {% for c in contact %}
         <li>
-          <a href="{{ c.link }}" class="btn">
+          <a href="{{ c.link }}" class="btn" target="_blank">
             <i class="fa {{ c.icon }} fa-2x"></i>
           </a>
         </li>
@@ -67,7 +67,7 @@
       <div class="row">
         <div class="col-md-12">
           {% if proj.pic_link is defined %}
-            <a href={{proj.pic_link}}>
+            <a href={{proj.pic_link}} target="_blank">
           {% endif %}
           <img class="img-thumbnail img-responsive center-block" src="static/{{ proj.pic }}" title="{{ proj.pic_title }}" alt="{{ proj.pic_alt }}" />
           {% if proj.pic_link is defined %}
@@ -90,7 +90,7 @@
       <h1 class="text-center">Contact</h1>
       <hr>
       <p>
-        All contact info is on the top left.  Just click on one of corresponding icons.
+        All contact links can be found on the right of the navigation bar.  Just click on one of corresponding icons.
       </p>
       <p>
         If you're a recruiter and you'd like to contact me, please send messages to my LinkedIn
