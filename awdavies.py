@@ -7,7 +7,7 @@ site = Flask(__name__)
 
 @site.route("/")
 def main():
-	return render_template("index.html")
+  return render_template("index.html")
 
 if __name__ == "__main__":
     site.run()
