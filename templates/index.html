@@ -50,7 +50,7 @@
 <div class="container">
   <div id="about" class="container jumbotron">
     <div class="col-md-3">
-      <img src="static/mahface.jpeg" title="Help!  I'm trapped in here!" class="img-thumbnail img-responsive"></img>
+      <img src="static/mahface.jpeg" title="Help!  I'm trapped in here!" class="img-thumbnail img-responsive" />
     </div>
     <div class="col-md-9">
       <h2>Oh hi there!</h2>
@@ -69,7 +69,7 @@
           {% if proj.pic_link is defined %}
             <a href={{proj.pic_link}}>
           {% endif %}
-          <img class="img-thumbnail img-responsive center-block" src="static/{{ proj.pic }}" title="{{ proj.pic_title }}"></img>
+          <img class="img-thumbnail img-responsive center-block" src="static/{{ proj.pic }}" title="{{ proj.pic_title }}" />
           {% if proj.pic_link is defined %}
             </a>
           {% endif %}
@@ -115,6 +115,7 @@
     </div>
   </div><!--./legalese -->
 
+</div>
 </div>
 <script>
 $(document).ready(function() {
