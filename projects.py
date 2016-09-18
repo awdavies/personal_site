@@ -25,7 +25,7 @@ project_list = [
     """
     If ever you are interested in climbing with me, you can contact me through my
     <a href="https://www.mountainproject.com/u/andrew-davies//109913395">Mountain
-    Project page</a>
+    Project page.</a>
     """,
   ],
 },
