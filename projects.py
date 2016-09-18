@@ -124,7 +124,7 @@ project_list = [
     In 2015 I got to work on the embedded team. I can finally announce that I helped
     to launch the <a href="https://support.google.com/fiber/answer/6284535?hl=en">
     Google Fiber Mini Network Box,</a> a compact version of the previous
-    customer router that is install for those with the Broadband plan.
+    customer router installed for those with the Broadband plan.
     """,
     """
     Since then, it's been top-tip-tip-tip-top secret as far as projects I've been
