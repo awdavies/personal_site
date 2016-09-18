@@ -117,8 +117,19 @@ project_list = [
 
     """
     Because I liked the team so much, and liked the type of projects I'd have the opportunity to work on,
-    I returned for full time employment as of June of 2014!  Unfortunately due to the nature of my work, there
-    won't be much in the way of project updates here, but oh well.
+    I returned for full time employment as of June of 2014!  Unfortunately due to the nature of NDAs, I won't
+    always be able to add updates here.
+    """,
+    """
+    In 2015 I got to work on the embedded team. I can finally announce that I helped
+    to launch the <a href="https://support.google.com/fiber/answer/6284535?hl=en">
+    Google Fiber Mini Network Box,</a> a compact version of the previous
+    customer router that is install for those with the Broadband plan.
+    """,
+    """
+    Since then, it's been top-tip-tip-tip-top secret as far as projects I've been
+    working on, so to save you on some nebulous descriptions, I'll post updates
+    as they become publicly available!
     """,
   ],
 },  ## google
