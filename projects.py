@@ -4,7 +4,30 @@ project_list = [
 'pic': 'rock_climbing_indian_creek.jpg',
 'pic_title': 'Climbing an unnamed 5.9 warmup route at Indian Creek Supercrack Buttress.',
 'pic_alt': 'Climbing Indian Creek',
-'paragraphs': [ "Lorem ipsum dolor sit amet.  Amen." ],
+'paragraphs': [
+    """
+    Rock climbing is more of a hobby, but I'd like to put it under projects,
+    as it takes up a considerable amount of my free time.  As of this writing
+    I've been trying my best to climb outdoors every weekend.
+    """ ,
+    """
+    Over the last two years I've been climbing at as many classic places as I can
+    manage.  Joshua Tree, Yosemite, Indian Creek, Squamish, The Gunks, Potrero
+    Chico.  There's a long list of other big places I'd  like to go, but haven't
+    due to time constraints and weather (I'm lookin at you, Red River Gorge).
+    """,
+    """
+    I am a member of the <a href="https://www.accessfund.org/">Access Fund</a>,
+    and have been for the last two years. Protecting and preserving outdoor
+    climbing is important to me, as rock climbing is the best thing since dinner
+    plates.
+    """,
+    """
+    If ever you are interested in climbing with me, you can contact me through my
+    <a href="https://www.mountainproject.com/u/andrew-davies//109913395">Mountain
+    Project page</a>
+    """,
+  ],
 },
 {  ## rocketry
 'title': "Rocketry",
