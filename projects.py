@@ -1,4 +1,11 @@
 project_list = [
+{  ## Rock Climbing
+'title': "Rock Climbing",
+'pic': 'rock_climbing_indian_creek.jpg',
+'pic_title': 'Climbing an unnamed 5.9 warmup route at Indian Creek Supercrack Buttress.',
+'pic_alt': 'Climbing Indian Creek',
+'paragraphs': [ "Lorem ipsum dolor sit amet.  Amen." ],
+},
 {  ## rocketry
 'title': "Rocketry",
 'pic': 'grayson_rocket.jpg',
@@ -49,7 +56,7 @@ project_list = [
 
 
 {  ## vidya
-'title': "Vidya Gaems",
+'title': "Games",
 'pic': "stalker_louie82y_with_logo.png",
 'pic_title': "Original photo credit goes to Louie82Y.  Click the image to see their deviantART page.",
 'pic_alt': "STALKER Shadow of Chernobyl",
