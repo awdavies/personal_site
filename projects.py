@@ -105,7 +105,7 @@ project_list = [
 
 {  ## google
 'title': "Google",
-'pic': "google-fiber-bunny.png",
+'pic': "google-fiber.jpg",
 'pic_alt': "Google Fiber Bunny",
 'paragraphs': [
     """
