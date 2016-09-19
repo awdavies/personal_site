@@ -51,7 +51,7 @@
     <header class="carousel slide">
       <div class="carousel-inner">
         <div class="item active">
-          <div class="fill parallax" style="background-image: url('static/squamish_big_chief.jpg');">
+          <div class="fill parallax" id="fade-in-image" style="background-image: url('static/squamish_big_chief.jpg'); transition: background 1s linear;">
           </div>
           <div class="carousel-caption">
             <h2 style="font-size: 50px;">Hi, I'm Andrew.  I am a software engineer, and a rock climber.</h2>
@@ -75,7 +75,7 @@
         {% for proj in projects %}
         <div class="row">
           <!-- <div class="col-md-12"> -->
-          <div class="subfill parallax" style="background-image: url('static/{{ proj.pic }}');" title="{{ proj.pic_title }}" alt="{{ proj.pic_alt }}" {% if proj.pic_link is defined %} href="{{ proj.pic_link }}" {% endif %}>
+          <div id="fade-in-image" class="subfill parallax" style="background-image: url('static/{{ proj.pic }}'); transition: background 1s linear;" title="{{ proj.pic_title }}" alt="{{ proj.pic_alt }}" {% if proj.pic_link is defined %} href="{{ proj.pic_link }}" {% endif %}>
             <div class="container"><h1 style="text-align: center; font-size: 50px;"> {{proj.title}} </h1></div>
           </div>
 
@@ -140,6 +140,11 @@ $(document).ready(function() {
     }, 900, 'swing', function() {
       window.location.hash = target;
     });
+  });
+
+  // Should hopefully fade in images when loaded.  Fingers crossed...
+  $("#fade-in-image").bind("load", function () {
+    $(this).fadeIn();
   });
 });
     </script>
