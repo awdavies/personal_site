@@ -24,3 +24,6 @@ li > a > .fa:hover {
 #about {
   background-color: #444;
 }
+.navbar-inner {
+  background-image: none!important;
+}
