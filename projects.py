@@ -14,18 +14,22 @@ project_list = [
     Over the last two years I've been climbing at as many classic places as I can
     manage.  Joshua Tree, Yosemite, Indian Creek, Squamish, The Gunks, Potrero
     Chico.  There's a long list of other big places I'd  like to go, but haven't
-    due to time constraints and weather (I'm lookin at you, Red River Gorge).
+    due to time constraints and weather (I'm lookin at you, Red River Gorge). In
+    the future I hope to get over to Europe to check out in the climbing in Spain,
+    France, Italy, Greece, and the UK.
     """,
     """
     I am a member of the <a href="https://www.accessfund.org/">Access Fund</a>,
     and have been for the last two years. Protecting and preserving outdoor
-    climbing is important to me, as rock climbing is the best thing since dinner
-    plates.
+    climbing is important to me, as rock climbing, especially outdoors, is the
+    best thing since dinner plates.
     """,
     """
     If ever you are interested in climbing with me, you can contact me through my
     <a href="https://www.mountainproject.com/u/andrew-davies//109913395">Mountain
-    Project page.</a>
+    Project page,</a> or any of the contact info I have on this page (preferably
+    not github, though).  As long as I have vacation days to spare, I will climb
+    any time any place.
     """,
   ],
 },
