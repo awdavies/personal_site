@@ -1,4 +1,36 @@
 project_list = [
+{  ## google
+'title': "Google",
+'pic': "google-fiber.jpg",
+'pic_alt': "Google Fiber Bunny",
+'paragraphs': [
+    """
+    In the Summer of 2013, I worked as an engineering intern for Google on the
+    <a href="https://fiber.google.com">Fiber</a> team.  Due to the wonderful land of NDAs, I can say that my
+    project was related to statistical monitoring certain hardware under use by the Fiber team.  In reality
+    it's much cooler than that description, but oh well.
+    """,
+
+    """
+    Because I liked the team so much, and liked the type of projects I'd have the opportunity to work on,
+    I returned for full time employment as of June of 2014!  Unfortunately due to the nature of NDAs, I won't
+    always be able to add updates here.
+    """,
+    """
+    In 2015 I got to work on the embedded team. I can finally announce that I helped
+    to launch the <a href="https://support.google.com/fiber/answer/6284535?hl=en">
+    Google Fiber Mini Network Box,</a> a compact version of the previous
+    customer router installed for those with the Broadband plan.
+    """,
+    """
+    Since then, it's been top-tip-tip-tip-top secret as far as projects I've been
+    working on, so to save you on some nebulous descriptions, I'll post updates
+    as they become publicly available!
+    """,
+  ],
+},
+## google
+
 {  ## Rock Climbing
 'title': "Rock Climbing",
 'pic': 'rock_climbing_indian_creek.jpg',
@@ -33,6 +65,7 @@ project_list = [
     """,
   ],
 },
+
 {  ## rocketry
 'title': "Rocketry",
 'pic': 'grayson_rocket.jpg',
@@ -106,36 +139,4 @@ project_list = [
     """,
   ],
 },  ## vidya
-
-{  ## google
-'title': "Google",
-'pic': "google-fiber.jpg",
-'pic_alt': "Google Fiber Bunny",
-'paragraphs': [
-    """
-    In the Summer of 2013, I worked as an engineering intern for Google on the
-    <a href="https://fiber.google.com">Fiber</a> team.  Due to the wonderful land of NDAs, I can say that my
-    project was related to statistical monitoring certain hardware under use by the Fiber team.  In reality
-    it's much cooler than that description, but oh well.
-    """,
-
-    """
-    Because I liked the team so much, and liked the type of projects I'd have the opportunity to work on,
-    I returned for full time employment as of June of 2014!  Unfortunately due to the nature of NDAs, I won't
-    always be able to add updates here.
-    """,
-    """
-    In 2015 I got to work on the embedded team. I can finally announce that I helped
-    to launch the <a href="https://support.google.com/fiber/answer/6284535?hl=en">
-    Google Fiber Mini Network Box,</a> a compact version of the previous
-    customer router installed for those with the Broadband plan.
-    """,
-    """
-    Since then, it's been top-tip-tip-tip-top secret as far as projects I've been
-    working on, so to save you on some nebulous descriptions, I'll post updates
-    as they become publicly available!
-    """,
-  ],
-},  ## google
-
 ]
