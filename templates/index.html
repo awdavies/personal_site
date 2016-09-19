@@ -91,58 +91,56 @@
           </div>
           <!-- /Project Paragraphs -->
 
-        </div>
-        {% endfor %}
+          </div>
+          {% endfor %}
 
-        <div class="container">
-          <div id="contact" class="row">
-            <div class="col-md-12">
-              <h1 class="text-center">Contact</h1>
-              <hr>
-              <p>
-              All contact links can be found on the right of the navigation bar.  Just click on one of corresponding icons.
-              </p>
-              <p>
-              If you're a recruiter and you'd like to contact me, please send messages to my LinkedIn
-              account, and not my email.
-              </p>
+          <div class="container">
+            <div id="contact" class="row">
+              <div class="col-md-12">
+                <h1 class="text-center">Contact</h1>
+                <hr>
+                <p>
+                All contact links can be found on the right of the navigation bar.  Just click on one of corresponding icons.
+                </p>
+                <p>
+                If you're a recruiter and you'd like to contact me, please send messages to my LinkedIn
+                account, and not my email.
+                </p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <!-- Legalese -->
-        <div id="legalese" class="row">
-          <div class="col-mod-10">
-            <p class="text-center name"><small>&copy; Andrew Davies 2016</small></p>
-            <p class="text-center">
-            <small>
-              <a href="http://getbootstrap.com/">Bootstrap</a>,
-              <a href="http://flask.pocoo.org/">Flask</a>,
-              <a href="http://jquery.com/">jQuery</a>, and
-              <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>
+          <!-- Legalese -->
+          <div id="legalese" class="row">
+            <div class="col-mod-10">
+              <p style="padding-top: 0px;" class="text-center name"><small>&copy; Andrew Davies 2016</small></p>
+              <p style="padding-top: 0px;" class="text-center">
+              <small>
+                <a href="http://getbootstrap.com/">Bootstrap</a>,
+                <a href="http://flask.pocoo.org/">Flask</a>,
+                <a href="http://jquery.com/">jQuery</a>, and
+                <a href="http://fortawesome.github.io/Font-Awesome/">Font Awesome</a>
                 power this website.
-            </small>
-            </p>
-          </div>
-        </div><!--./legalese -->
-
-      </div>
-      <!-- </div> -->
+              </small>
+              </p>
+            </div>
+          </div><!--./legalese -->
+        </div>
     </section>
 
     <script>
-      $(document).ready(function() {
-        // Smooth scroll to any hash marker.
-        $('a[href^="#"]').on('click', function(e) {
-          e.preventDefault();
-          var target = this.hash;
-          $('html, body').stop().animate({
-            'scrollTop': $(target).offset() ? $(target).offset().top : 0
-          }, 900, 'swing', function() {
-            window.location.hash = target;
-          });
-        });
-      });
+$(document).ready(function() {
+  // Smooth scroll to any hash marker.
+  $('a[href^="#"]').on('click', function(e) {
+    e.preventDefault();
+    var target = this.hash;
+    $('html, body').stop().animate({
+      'scrollTop': $(target).offset() ? $(target).offset().top : 0
+    }, 900, 'swing', function() {
+      window.location.hash = target;
+    });
+  });
+});
     </script>
   </body>
 </html>
