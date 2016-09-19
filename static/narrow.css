@@ -70,10 +70,19 @@ body {
   }
   /* Space out the masthead */
   .header {
-    margin-bottom: 30px;
+    margin-bottom: 0px;
   }
   /* Remove the bottom border on the jumbotron for visual effect */
   .jumbotron {
     border-bottom: 0;
   }
+}
+
+.carousel,
+.active {
+  height: 100%;
+}
+
+.carousel-inner {
+  height: 100%;
 }

@@ -33,8 +33,8 @@ project_list = [
 
 {  ## Rock Climbing
 'title': "Rock Climbing",
-'pic': 'rock_climbing_indian_creek.jpg',
-'pic_title': 'Climbing an unnamed 5.9 warmup route at Indian Creek Supercrack Buttress.',
+'pic': 'klahanie_crack_squamish.jpg',
+'pic_title': 'Leading Klahanie Crack (5.7) to teach a friend how to trad lead.',
 'pic_alt': 'Climbing Indian Creek',
 'paragraphs': [
     """
@@ -68,9 +68,9 @@ project_list = [
 
 {  ## rocketry
 'title': "Rocketry",
-'pic': 'grayson_rocket.jpg',
-'pic_title': "Rocket launch in Black Rock, March 2014 (though I was there, I did not take this photo).",
-'pic_alt': "Rocket Launch",
+'pic': 'walking_back_black_rock.jpg',
+'pic_title': "Walking back to the camp with the remains of the two-stage rocket (though I was there, I did not take this photo).",
+'pic_alt': "Rocket Recovery",
 'paragraphs': [
     """
     While I haven't been exposed to too much other than carbon fibering
@@ -117,13 +117,12 @@ project_list = [
 
 {  ## vidya
 'title': "Games",
-'pic': "stalker_louie82y_with_logo.png",
-'pic_title': "Original photo credit goes to Louie82Y.  Click the image to see their deviantART page.",
-'pic_alt': "STALKER Shadow of Chernobyl",
-'pic_link': "http://louie82y.deviantart.com/",
+'pic': "keyboard_dark.jpg",
+'pic_title': "Keyboard in the Dark",
+'pic_alt': "My keyboard and Oculus DK2",
 'paragraphs': [
     """
-    As of May, 2014 I've joined the <a href="http://www.moddb.com/mods/lurk">L.U.R.K.</a> team. To play around
+    In May, 2014 I joined the <a href="http://www.moddb.com/mods/lurk">L.U.R.K.</a> team. To play around
     with scripting and engine plugins.  While working with these lovely and talented folks, I got to play around with
     some of the leaked Shadow of Chernobyl source code and extend the Lua callback functionality to provide callbacks
     not previously supported in game like when the player character (or non player character) fires their weapon,
