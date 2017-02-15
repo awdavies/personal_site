@@ -136,6 +136,11 @@ project_list = [
     the L.U.R.K. team is no longer planning to work on the mod.  While the team still exists, we will be exploring
     new projects that don't involve using the dated&mdash;and frankly unfriendly&mdash;game engine known as X-Ray.
     """,
+    """
+    Recently I had a toy project to learn Go for work.  I decided to check out some existing OpenGL library bindings
+    to make a Snake ripoff!  You can read about it (and checkout the source) 
+    <a href="https://github.com/awdavies/goSnake">here!</a>
+    """,
   ],
 },  ## vidya
 ]
