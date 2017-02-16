@@ -63,6 +63,11 @@ project_list = [
     not github, though).  As long as I have vacation days to spare, I will climb
     any time any place.
     """,
+		"""
+    The above photo was taken by <a href="http://maxg.io">Max Golub</a> in Squamish.
+    You can check out his flickr page <a href="https://www.flickr.com/photos/golub90/">
+    here</a>.
+		""",
   ],
 },
 
