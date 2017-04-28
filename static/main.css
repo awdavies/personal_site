@@ -24,3 +24,10 @@ li > a > .fa:hover {
 #about {
   background-color: #444;
 }
+/* I'm too lazy to center these things... this seems to kinda work. */
+.navbar-header {
+  padding-top: 10px;
+}
+.navbar-collapse {
+  padding-top: 10px;
+}
